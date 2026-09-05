@@ -1,32 +1,50 @@
-<!-- นี่คือโครงสร้างหน้าเว็บทังหมด ้ -->
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>หน้าแนะนำตัวของฉัน</title>
-<style>
-body {
-background-color: #f4f7f6; color: #333;
-text-align: center; padding: 50px;
-
-}
-.card {
-background: skyblue; border-radius: 50px;
-box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-max-width: 500px; margin: 0 auto; padding: 30px;
-
-}
-h1 { color: #2c3e50; }
-p { font-size: 18px; line-height: 1.6; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Anan Suksawat.">
+  <title>Anan Suksawat | Portfolio</title>
 </head>
 <body>
-<div class="card">
-<h1>ยินดีต้อนรับสู่โปรไฟล์ของฉัน </h1>
-<p>สวัสดีครับ! ผมชื่อ <strong>ศุภเชฎฐ์ (supachad)</strong></p>
-<p>ขณะนี้กำลังศึกษาสนใจด้าน Computer Science & Engineering</p>
-<p>นี่คือเว็บไซต์แรกของผมที่โฮสต์บน GitHub Pages!</p>
-<a href="portfolio.html" style="display:inline-block; background:#3498db; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; margin-top:15px;">👉 ดูแฟ้มสะสมงานของผม</a>
-</div>
+  <header id="home">
+    <nav aria-label="Primary navigation">
+      <a href="index.html" aria-current="page">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="skills.html">Skills</a> |
+      <a href="experience.html">Experience</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <hr>
+
+    <figure>
+      <svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" role="img" aria-labelledby="profile-image-title">
+        <title id="profile-image-title">Sample profile portrait placeholder</title>
+        <circle cx="90" cy="90" r="88" fill="lightgray" stroke="black" stroke-width="2" />
+        <circle cx="90" cy="67" r="28" fill="white" stroke="black" stroke-width="2" />
+        <path d="M35 158c8-34 30-52 55-52s47 18 55 52" fill="white" stroke="black" stroke-width="2" />
+      </svg>
+      <figcaption>Sample profile image — replace this placeholder with your own image when ready.</figcaption>
+    </figure>
+
+    <h1>Anan Suksawat</h1>
+    <p><strong>Administrative Professional | Web Design Enthusiast</strong></p>
+    <p>I enjoy turning information into clear, useful, and easy-to-use experiences.</p>
+    <p><a href="#contact">Get in touch</a> or <a href="#about">learn more about me</a>.</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="welcome-title">
+      <h2 id="welcome-title">Welcome</h2>
+      <p>Explore my profile, skills, work experience, and contact information through the navigation above.</p>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p>&copy; 2026 Anan Suksawat. All rights reserved.</p>
+    <p>Built with HTML only.</p>
+  </footer>
 </body>
 </html>
