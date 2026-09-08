@@ -14,14 +14,14 @@
   main { max-width: 960px; margin: auto; padding: 48px 24px; }
   .card { background: #fff; padding: 32px; border-radius: 16px; box-shadow: 0 10px 25px #0f172414; }
   
-  /* สไตล์สำหรับรูปภาพให้อยู่ด้านบนและจัดขนาดให้สวยงาม */
-  .skill-image {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 12px;
-    margin-bottom: 24px;
+  /* จัดการแสดงผลรูปภาพ */
+  .preview-img {
     display: block;
+    max-width: 100%;
+    max-height: 400px;
+    margin: 0 auto 24px auto;
+    border-radius: 12px;
+    object-fit: contain;
   }
 
   h2 { color: #1e3a8a; }
@@ -44,8 +44,8 @@
 </header>
 <main>
   <section class="card">
-    <!-- นำรูปภาพมาใส่ไว้ด้านบนสุดใน .card -->
-    <img src="Screenshot_20260908_135429_Gallery.jpg" alt="ภาพหน้าจอทักษะ" class="skill-image">
+    <!-- ใส่รูปภาพไว้ด้านบนสุด -->
+    <img src="Screenshot_20260908_135429_Gallery.jpg" alt="ภาพหน้าจอทักษะ" class="preview-img">
 
     <h2>ทักษะทั่วไป</h2>
     <ul class="tags">
