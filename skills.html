@@ -19,7 +19,7 @@
     display: block;
     max-width: 100%;
     max-height: 400px;
-    margin: 0 auto 24px auto;
+    margin: 24px auto;
     border-radius: 12px;
     object-fit: contain;
   }
@@ -36,32 +36,39 @@
     <a href="index.html">หน้าหลัก</a>
     <a href="about.html">เกี่ยวกับฉัน</a>
     <a href="skills.html" aria-current="page">ทักษะ</a>
-    <a href="experience.html">ผลงาน</a>
     <a href="contact.html">ติดต่อ</a>
   </nav>
-  <h1>ทักษะ</h1>
-  <p>ความสามารถและทักษะที่ผมกำลังพัฒนา</p>
 </header>
 <main>
-  <section class="card">
-    <!-- รูปภาพถูกวางไว้ด้านบนสุดของ Card เรียบร้อยแล้ว -->
-    <img src="Screenshot_20260908_135429_Gallery.jpg" alt="ภาพหน้าจอทักษะ" class="preview-img">
+  <div class="card">
+    <h1>ทักษะและความสามารถ</h1>
+    <p>นี่คือหน้าแสดงทักษะความสามารถและเครื่องมือต่างๆ ที่ฉันใช้งานอยู่เป็นประจำในการทำงานและการพัฒนาโปรเจกต์</p>
+    
+    <!-- เพิ่มรูปภาพประกอบที่นี่ -->
+    <img class="preview-img" src="Screenshot_20260908_135429_Gallery.jpg" alt="รูปภาพแสดงทักษะ" />
 
-    <h2>ทักษะทั่วไป</h2>
+    <h2>ทักษะทางเทคนิค (Technical Skills)</h2>
     <ul class="tags">
+      <li>HTML5 / CSS3</li>
+      <li>JavaScript (ES6+)</li>
+      <li>React.js</li>
+      <li>Node.js</li>
+      <li>Python</li>
+      <li>Git / GitHub</li>
+      <li>UI/UX Design</li>
+    </ul>
+
+    <h2>ทักษะการทำงานร่วมกัน (Soft Skills)</h2>
+    <ul class="tags">
+      <li>การแก้ปัญหาเฉพาะหน้า</li>
       <li>การทำงานเป็นทีม</li>
-      <li>ความอดทน</li>
-      <li>การสื่อสาร</li>
-      <li>ความรับผิดชอบ</li>
-      <li>การวางแผนงาน</li>
+      <li>การบริหารเวลา</li>
+      <li>การสื่อสารที่มีประสิทธิภาพ</li>
     </ul>
-    <h2>ภาษา</h2>
-    <ul class="tags">
-      <li>ภาษาไทย — อ่านและเขียนได้</li>
-      <li>ภาษาอังกฤษ — อ่านได้</li>
-    </ul>
-  </section>
+  </div>
 </main>
-<footer>© 2026 นายศุภเชฎฐ์ เเซ่เตียว</footer>
+<footer>
+  <p>&copy; 2026 พอร์ตโฟลิโอของฉัน. สงวนลิขสิทธิ์.</p>
+</footer>
 </body>
 </html>
